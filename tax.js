@@ -119,4 +119,13 @@ document.getElementById("tax_form").addEventListener("submit", function (event) 
     let net_salary = calculate_net_salary(gross, nhif, nhdf, nssf, PAYEE)
     document.getElementById("net_salary").innerHTML = net_salary
 
+    // Save results in localStorage
+
+localStorage.setItem("gross", gross)
+localStorage.setItem("nhif", nhif)
+localStorage.setItem("nssf", nssf)
+localStorage.setItem("nhdf", nhdf)
+localStorage.setItem("taxable_income", taxable_income)
+localStorage.setItem("PAYEE", PAYEE)
+localStorage.setItem("net_salary", net_salary)
 })

@@ -1,0 +1,39 @@
+
+.buttons{
+    margin-left: 600px;
+}
+
+/* Results table */
+.table-container {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table thead {
+    background: #0d6efd;
+    color: white;
+}
+
+.footer1 {
+            list-style: none;
+        }
+
+        .footer1 a {
+            text-decoration: none;
+            color: grey;
+        }
+
+        .footer2 {
+            list-style: none;
+        }
+
+        .footer2 a {
+            text-decoration: none;
+            color: grey;
+        }
